@@ -17,7 +17,6 @@
 #include "editor/particle_editor.hpp"
 
 #include <physfs.h>
-#include <boost/algorithm/string/predicate.hpp>
 
 #include "control/input_manager.hpp"
 #include "editor/editor.hpp"
@@ -519,7 +518,7 @@ void
 ParticleEditor::save(const std::string& filepath_, bool retry)
 {
   std::string filepath = filepath_;
-  if (!boost::algorithm::ends_with(filepath, ".stcp"))
+  if (!filepath.compare(filepath.size() - 5, 5, ".stcp"))
     filepath += ".stcp";
 
   // FIXME: It tests for directory in supertux/data, but saves into .supertux2.
