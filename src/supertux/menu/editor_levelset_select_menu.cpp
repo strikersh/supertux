@@ -18,7 +18,7 @@
 
 #include <physfs.h>
 #include <sstream>
-#include <boost/format.hpp>
+#include <fmt/core.h>
 
 #include "editor/editor.hpp"
 #include "gui/menu_item.hpp"
@@ -79,7 +79,7 @@ EditorLevelsetSelectMenu::EditorLevelsetSelectMenu() :
       int level_count = levelset->get_num_levels();
       std::ostringstream level_title;
       level_title << title << " (" <<
-        boost::format(__("%d level", "%d levels", level_count)) % level_count <<
+        fmt::format(__("{} level", "{} levels", level_count), level_count) <<
         ")";
       add_entry(i++, level_title.str());
       m_contrib_worlds.push_back(level_world);

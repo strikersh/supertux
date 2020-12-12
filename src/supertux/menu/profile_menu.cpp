@@ -16,7 +16,7 @@
 
 #include "supertux/menu/profile_menu.hpp"
 
-#include <boost/format.hpp>
+#include <fmt/core.h>
 #include <sstream>
 
 #include "gui/dialog.hpp"
@@ -38,11 +38,11 @@ ProfileMenu::ProfileMenu()
     std::ostringstream out;
     if (i == g_config->profile)
     {
-      out << str(boost::format(_("[Profile %s]")) %i);
+      out << fmt::format(_("[Profile %s]"), i);
     }
     else
     {
-      out << str(boost::format(_("Profile %s")) %i);
+      out << fmt::format(_("Profile %s"), i);
     }
     add_entry(i, out.str());
   }

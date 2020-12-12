@@ -1178,8 +1178,8 @@ msgstr "Oibseact nach aithne dhuinn"
 
 #: src/supertux/command_line_arguments.cpp:74
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Cleachdadh: %s [ROGHAINNEAN] [FAIDHLE_LEIBHEIL]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Cleachdadh: {} [ROGHAINNEAN] [FAIDHLE_LEIBHEIL]"
 
 #: src/supertux/command_line_arguments.cpp:75
 msgid "General Options:"
@@ -1574,12 +1574,12 @@ msgstr "Tagh saoghal"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:82
 #, c-format
-msgid "%d level"
-msgid_plural "%d levels"
-msgstr[0] "%d leibheil"
-msgstr[1] "%d leibheil"
-msgstr[2] "%d leibheilean"
-msgstr[3] "%d leibheil"
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] "{} leibheil"
+msgstr[1] "{} leibheil"
+msgstr[2] "{} leibheilean"
+msgstr[3] "{} leibheil"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:95
 msgid "Create World"
@@ -1808,13 +1808,13 @@ msgstr "Ath-mheudaich"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[Pròifil %s]"
+msgid "[Profile {}]"
+msgstr "[Pròifil {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "Pròifil %s"
+msgid "Profile {}"
+msgstr "Pròifil {}"
 
 #: src/supertux/menu/editor_levelset_menu.cpp:59
 #: src/supertux/menu/editor_new_levelset_menu.cpp:35
@@ -1846,8 +1846,8 @@ msgstr "Chan eil fhios"
 
 #: src/supertux/menu/addon_menu.cpp:71
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s \"%s\" le \"%s\""
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" le \"{}\""
 
 #: src/supertux/menu/addon_menu.cpp:129
 msgid "No Add-ons installed"
@@ -1859,13 +1859,13 @@ msgstr "Cha deach tuilleadan a lorg"
 
 #: src/supertux/menu/addon_menu.cpp:179
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "Stàlaich %s *ÙR*"
+msgid "Install {} *NEW*"
+msgstr "Stàlaich {} *ÙR*"
 
 #: src/supertux/menu/addon_menu.cpp:190
 #, c-format
-msgid "Install %s"
-msgstr "Stàlaich %s"
+msgid "Install {}"
+msgstr "Stàlaich {}"
 
 #: src/supertux/menu/addon_menu.cpp:199
 msgid "No new Add-ons found"
@@ -1885,8 +1885,8 @@ msgstr "A' luchdadh a-nuas inneacs ionad-tasgaidh nan tuilleadan"
 
 #: src/supertux/menu/addon_menu.cpp:301
 #, c-format
-msgid "Downloading %s"
-msgstr "A' luchdadh a-nuas %s"
+msgid "Downloading {}"
+msgstr "A' luchdadh a-nuas {}"
 
 #: src/supertux/menu/addon_menu.cpp:348
 msgid ""
@@ -2302,8 +2302,8 @@ msgstr "Tha mi agaibh!"
 
 #: src/supertux/levelintro.cpp:136
 #, c-format
-msgid "contributed by %s"
-msgstr "tabhartas le %s"
+msgid "contributed by {}"
+msgstr "tabhartas le {}"
 
 #: src/supertux/levelintro.cpp:169
 msgid "Badguys killed"

@@ -1181,8 +1181,8 @@ msgstr "Неизвестный объект"
 
 #: src/supertux/command_line_arguments.cpp:74
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Использование: %s [ПАРАМЕТРЫ] [ФАЙЛ_УРОВНЯ]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Использование: {} [ПАРАМЕТРЫ] [ФАЙЛ_УРОВНЯ]"
 
 #: src/supertux/command_line_arguments.cpp:75
 msgid "General Options:"
@@ -1577,12 +1577,12 @@ msgstr "Выберите мир"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:82
 #, c-format
-msgid "%d level"
-msgid_plural "%d levels"
-msgstr[0] "%d уровень"
-msgstr[1] "%d уровня"
-msgstr[2] "%d уровней"
-msgstr[3] "%d уровней"
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] "{} уровень"
+msgstr[1] "{} уровня"
+msgstr[2] "{} уровней"
+msgstr[3] "{} уровней"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:95
 msgid "Create World"
@@ -1811,13 +1811,13 @@ msgstr "Изменить размер"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[Профиль %s]"
+msgid "[Profile {}]"
+msgstr "[Профиль {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "Профиль %s"
+msgid "Profile {}"
+msgstr "Профиль {}"
 
 #: src/supertux/menu/editor_levelset_menu.cpp:59
 #: src/supertux/menu/editor_new_levelset_menu.cpp:35
@@ -1849,8 +1849,8 @@ msgstr "Неизвестно"
 
 #: src/supertux/menu/addon_menu.cpp:71
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s %s от %s"
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} {} от {}"
 
 #: src/supertux/menu/addon_menu.cpp:129
 msgid "No Add-ons installed"
@@ -1862,13 +1862,13 @@ msgstr "Дополнения не найдены"
 
 #: src/supertux/menu/addon_menu.cpp:179
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "Установить %s *НОВИНКА*"
+msgid "Install {} *NEW*"
+msgstr "Установить {} *НОВИНКА*"
 
 #: src/supertux/menu/addon_menu.cpp:190
 #, c-format
-msgid "Install %s"
-msgstr "Установить %s"
+msgid "Install {}"
+msgstr "Установить {}"
 
 #: src/supertux/menu/addon_menu.cpp:199
 msgid "No new Add-ons found"
@@ -1888,8 +1888,8 @@ msgstr "Загрузка индекса хранилища дополнений"
 
 #: src/supertux/menu/addon_menu.cpp:301
 #, c-format
-msgid "Downloading %s"
-msgstr "Загружается %s"
+msgid "Downloading {}"
+msgstr "Загружается {}"
 
 #: src/supertux/menu/addon_menu.cpp:348
 msgid ""
@@ -2305,8 +2305,8 @@ msgstr "Понятно!"
 
 #: src/supertux/levelintro.cpp:136
 #, c-format
-msgid "contributed by %s"
-msgstr "автор: %s"
+msgid "contributed by {}"
+msgstr "автор: {}"
 
 #: src/supertux/levelintro.cpp:169
 msgid "Badguys killed"

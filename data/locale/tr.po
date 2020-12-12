@@ -1064,8 +1064,8 @@ msgstr ""
 
 #: src/supertux/command_line_arguments.cpp:79
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Kullanım: %s [SEÇENEKLER] [BÖLÜMDOSYASI]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Kullanım: {} [SEÇENEKLER] [BÖLÜMDOSYASI]"
 
 #: src/supertux/command_line_arguments.cpp:80
 msgid "General Options:"
@@ -1247,8 +1247,8 @@ msgstr ""
 
 #: src/supertux/levelintro.cpp:120
 #, c-format
-msgid "contributed by %s"
-msgstr "%s tarafından katkıda bulunuldu"
+msgid "contributed by {}"
+msgstr "{} tarafından katkıda bulunuldu"
 
 #: src/supertux/levelintro.cpp:141 src/supertux/statistics.cpp:119
 msgid "Best Level Statistics"
@@ -1288,8 +1288,8 @@ msgstr "Dünya"
 
 #: src/supertux/menu/addon_menu.cpp:83
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s \"%s\" kadar \"%s\""
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" kadar \"{}\""
 
 #: src/supertux/menu/addon_menu.cpp:139
 msgid "Language packs"
@@ -1325,13 +1325,13 @@ msgstr "Eklentiler bulunamadı"
 
 #: src/supertux/menu/addon_menu.cpp:224
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "Kur %s *YENİ*"
+msgid "Install {} *NEW*"
+msgstr "Kur {} *YENİ*"
 
 #: src/supertux/menu/addon_menu.cpp:235
 #, c-format
-msgid "Install %s"
-msgstr "Kur %s"
+msgid "Install {}"
+msgstr "Kur {}"
 
 #: src/supertux/menu/addon_menu.cpp:246
 msgid "No new Language packs found"
@@ -1370,8 +1370,8 @@ msgstr "Eklenti Deposu İçeriği İndiriliyor"
 
 #: src/supertux/menu/addon_menu.cpp:361
 #, c-format
-msgid "Downloading %s"
-msgstr "%s İndiriliyor"
+msgid "Downloading {}"
+msgstr "{} İndiriliyor"
 
 #: src/supertux/menu/addon_menu.cpp:408
 msgid ""
@@ -2031,13 +2031,13 @@ msgstr "Yılbaşı Modu"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[Profil %s]"
+msgid "[Profile {}]"
+msgstr "[Profil {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "Profil %s"
+msgid "Profile {}"
+msgstr "Profil {}"
 
 #: src/supertux/menu/world_set_menu.cpp:41
 msgid "Story Mode"

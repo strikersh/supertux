@@ -1170,8 +1170,8 @@ msgstr "Άγνωστο αντικείμενο"
 
 #: src/supertux/command_line_arguments.cpp:74
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Χρήση: %s [OPTIONS] [LEVELFILE]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Χρήση: {} [OPTIONS] [LEVELFILE]"
 
 #: src/supertux/command_line_arguments.cpp:75
 msgid "General Options:"
@@ -1566,10 +1566,10 @@ msgstr ""
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:82
 #, c-format
-msgid "%d level"
-msgid_plural "%d levels"
-msgstr[0] "%d επίπεδο"
-msgstr[1] "%d επίπεδα"
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] "{} επίπεδο"
+msgstr[1] "{} επίπεδα"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:95
 msgid "Create World"
@@ -1794,13 +1794,13 @@ msgstr "Αλλαγή μεγέθους"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[Προφίλ %s]"
+msgid "[Profile {}]"
+msgstr "[Προφίλ {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "Προφίλ %s"
+msgid "Profile {}"
+msgstr "Προφίλ {}"
 
 #: src/supertux/menu/editor_levelset_menu.cpp:59
 #: src/supertux/menu/editor_new_levelset_menu.cpp:35
@@ -1828,8 +1828,8 @@ msgstr "Άγνωστο"
 
 #: src/supertux/menu/addon_menu.cpp:68
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s \"%s\" από \"%s\""
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" από \"{}\""
 
 #: src/supertux/menu/addon_menu.cpp:126
 msgid "No Add-ons installed"
@@ -1841,13 +1841,13 @@ msgstr "Δεν βρέθηκαν Πρόσθετα"
 
 #: src/supertux/menu/addon_menu.cpp:176
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "Εγκατάσταση %s *ΝΕΟ*"
+msgid "Install {} *NEW*"
+msgstr "Εγκατάσταση {} *ΝΕΟ*"
 
 #: src/supertux/menu/addon_menu.cpp:187
 #, c-format
-msgid "Install %s"
-msgstr "Εγκατάσταση %s"
+msgid "Install {}"
+msgstr "Εγκατάσταση {}"
 
 #: src/supertux/menu/addon_menu.cpp:196
 msgid "No new Add-ons found"
@@ -1867,8 +1867,8 @@ msgstr "Κατέβασμα λίστας αποθετηρίου Πρόσθετω�
 
 #: src/supertux/menu/addon_menu.cpp:298
 #, c-format
-msgid "Downloading %s"
-msgstr "Λήψη %s"
+msgid "Downloading {}"
+msgstr "Λήψη {}"
 
 #: src/supertux/menu/addon_menu.cpp:345
 msgid ""
@@ -2284,8 +2284,8 @@ msgstr ""
 
 #: src/supertux/levelintro.cpp:135
 #, c-format
-msgid "contributed by %s"
-msgstr "συμβολή από %s"
+msgid "contributed by {}"
+msgstr "συμβολή από {}"
 
 #: src/supertux/levelintro.cpp:167
 msgid "Badguys killed"

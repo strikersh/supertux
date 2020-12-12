@@ -1175,8 +1175,8 @@ msgstr "不明なオブジェクト"
 
 #: src/supertux/command_line_arguments.cpp:74
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "使用法: %s [OPTIONS] [LEVELFILE]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "使用法: {} [OPTIONS] [LEVELFILE]"
 
 #: src/supertux/command_line_arguments.cpp:75
 msgid "General Options:"
@@ -1571,9 +1571,9 @@ msgstr "ワールドを選ぶ"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:82
 #, c-format
-msgid "%d level"
-msgid_plural "%d levels"
-msgstr[0] "%d レベル"
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] "{} レベル"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:95
 msgid "Create World"
@@ -1798,13 +1798,13 @@ msgstr "サイズ変更"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[プロファイル %s]"
+msgid "[Profile {}]"
+msgstr "[プロファイル {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "プロファイル %s"
+msgid "Profile {}"
+msgstr "プロファイル {}"
 
 #: src/supertux/menu/editor_levelset_menu.cpp:59
 #: src/supertux/menu/editor_new_levelset_menu.cpp:35
@@ -1832,8 +1832,8 @@ msgstr "不明"
 
 #: src/supertux/menu/addon_menu.cpp:68
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s \"%s\" 作成者: \"%s\""
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" 作成者: \"{}\""
 
 #: src/supertux/menu/addon_menu.cpp:126
 msgid "No Add-ons installed"
@@ -1845,13 +1845,13 @@ msgstr "アドオンが見つかりませんでした"
 
 #: src/supertux/menu/addon_menu.cpp:176
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "%s をインストール *新規*"
+msgid "Install {} *NEW*"
+msgstr "{} をインストール *新規*"
 
 #: src/supertux/menu/addon_menu.cpp:187
 #, c-format
-msgid "Install %s"
-msgstr "%s をインストール"
+msgid "Install {}"
+msgstr "{} をインストール"
 
 #: src/supertux/menu/addon_menu.cpp:196
 msgid "No new Add-ons found"
@@ -1871,8 +1871,8 @@ msgstr "アドオンのレポジトリのインデックスをダウンロード
 
 #: src/supertux/menu/addon_menu.cpp:298
 #, c-format
-msgid "Downloading %s"
-msgstr "%s をダウンロードしています"
+msgid "Downloading {}"
+msgstr "{} をダウンロードしています"
 
 #: src/supertux/menu/addon_menu.cpp:345
 msgid ""
@@ -2288,8 +2288,8 @@ msgstr "了解"
 
 #: src/supertux/levelintro.cpp:135
 #, c-format
-msgid "contributed by %s"
-msgstr "%s さんの作品"
+msgid "contributed by {}"
+msgstr "{} さんの作品"
 
 #: src/supertux/levelintro.cpp:167
 msgid "Badguys killed"

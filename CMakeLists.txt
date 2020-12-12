@@ -39,7 +39,7 @@ project(SUPERTUX)
 
 ### CMake configuration
 
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.14)
 if(COMMAND cmake_policy)
   cmake_policy(SET CMP0003 NEW)
   cmake_policy(SET CMP0008 NEW)
@@ -507,6 +507,7 @@ include_directories(SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/external/findlocale/)
 include_directories(SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/external/obstack/)
 include_directories(SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/external/sexp-cpp/include/)
 include_directories(SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/external/SDL_SavePNG/)
+include_directories(SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/external/fmt/include)
 
 # Discord SDK
 # Before removing messages, please check with the community if no one minds that the Discord SDK gets bundled with ST.
@@ -786,6 +787,11 @@ endif(GENERATE_WRAPPER)
 #set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
 
+
+## fmt
+
+add_subdirectory(external/fmt)
+
 ## Add target for supertux binary
 
 add_library(supertux2_c OBJECT ${SUPERTUX_SOURCES_C})
@@ -796,7 +802,7 @@ if(WIN32)
 else()
   add_executable(supertux2 src/main.cpp)
 endif(WIN32)
-target_link_libraries(supertux2 supertux2_lib Boost::filesystem Boost::locale)
+target_link_libraries(supertux2 supertux2_lib fmt)
 set_target_properties(supertux2_lib PROPERTIES OUTPUT_NAME supertux2_lib)
 set_target_properties(supertux2_lib PROPERTIES COMPILE_FLAGS "${SUPERTUX2_EXTRA_WARNING_FLAGS}")
 

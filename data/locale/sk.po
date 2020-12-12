@@ -1059,8 +1059,8 @@ msgstr ""
 
 #: src/supertux/command_line_arguments.cpp:79
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Použitie: %s [MOŽNOSTI] [SÚBORÚROVNE]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Použitie: {} [MOŽNOSTI] [SÚBORÚROVNE]"
 
 #: src/supertux/command_line_arguments.cpp:80
 msgid "General Options:"
@@ -1249,8 +1249,8 @@ msgstr "Neznámy objekt"
 
 #: src/supertux/levelintro.cpp:120
 #, c-format
-msgid "contributed by %s"
-msgstr "prispel %s"
+msgid "contributed by {}"
+msgstr "prispel {}"
 
 #: src/supertux/levelintro.cpp:141 src/supertux/statistics.cpp:119
 msgid "Best Level Statistics"
@@ -1290,8 +1290,8 @@ msgstr "Svet"
 
 #: src/supertux/menu/addon_menu.cpp:83
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s \"%s\" od autora \"%s\""
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" od autora \"{}\""
 
 #: src/supertux/menu/addon_menu.cpp:139
 msgid "Language packs"
@@ -1327,13 +1327,13 @@ msgstr "Nenašli sa žiadne doplnky"
 
 #: src/supertux/menu/addon_menu.cpp:224
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "Nainštalovať %s *NOVINKA*"
+msgid "Install {} *NEW*"
+msgstr "Nainštalovať {} *NOVINKA*"
 
 #: src/supertux/menu/addon_menu.cpp:235
 #, c-format
-msgid "Install %s"
-msgstr "Nainštalovať %s"
+msgid "Install {}"
+msgstr "Nainštalovať {}"
 
 #: src/supertux/menu/addon_menu.cpp:246
 msgid "No new Language packs found"
@@ -1372,8 +1372,8 @@ msgstr "Sťahuje sa zoznam doplnkov"
 
 #: src/supertux/menu/addon_menu.cpp:361
 #, c-format
-msgid "Downloading %s"
-msgstr "Sťahuje sa %s"
+msgid "Downloading {}"
+msgstr "Sťahuje sa {}"
 
 #: src/supertux/menu/addon_menu.cpp:408
 msgid ""
@@ -2035,13 +2035,13 @@ msgstr "Vianočný režim"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[Profil %s]"
+msgid "[Profile {}]"
+msgstr "[Profil {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "Profil %s"
+msgid "Profile {}"
+msgstr "Profil {}"
 
 #: src/supertux/menu/world_set_menu.cpp:41
 msgid "Story Mode"

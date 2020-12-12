@@ -1192,8 +1192,8 @@ msgstr "Objet inconnu"
 
 #: src/supertux/command_line_arguments.cpp:74
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Utilisation : %s [OPTIONS] [FICHIER_NIVEAU]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Utilisation : {} [OPTIONS] [FICHIER_NIVEAU]"
 
 #: src/supertux/command_line_arguments.cpp:75
 msgid "General Options:"
@@ -1588,10 +1588,10 @@ msgstr ""
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:82
 #, c-format
-msgid "%d level"
-msgid_plural "%d levels"
-msgstr[0] "%d Niveau"
-msgstr[1] "%dNiveaux"
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] "{} Niveau"
+msgstr[1] "{}Niveaux"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:95
 msgid "Create World"
@@ -1820,13 +1820,13 @@ msgstr "Redimensionner"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[Profil %s]"
+msgid "[Profile {}]"
+msgstr "[Profil {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "Profil %s"
+msgid "Profile {}"
+msgstr "Profil {}"
 
 #: src/supertux/menu/editor_levelset_menu.cpp:59
 #: src/supertux/menu/editor_new_levelset_menu.cpp:35
@@ -1858,8 +1858,8 @@ msgstr "Inconnu "
 
 #: src/supertux/menu/addon_menu.cpp:71
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s \"%s\" par \"%s\""
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" par \"{}\""
 
 #: src/supertux/menu/addon_menu.cpp:129
 msgid "No Add-ons installed"
@@ -1871,13 +1871,13 @@ msgstr "Pas d'Extensions trouvées"
 
 #: src/supertux/menu/addon_menu.cpp:179
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "Installer %s *NOUVEAU*"
+msgid "Install {} *NEW*"
+msgstr "Installer {} *NOUVEAU*"
 
 #: src/supertux/menu/addon_menu.cpp:190
 #, c-format
-msgid "Install %s"
-msgstr "Installer le %s "
+msgid "Install {}"
+msgstr "Installer le {} "
 
 #: src/supertux/menu/addon_menu.cpp:199
 msgid "No new Add-ons found"
@@ -1897,8 +1897,8 @@ msgstr "Téléchargement du Répertoire des Extensions"
 
 #: src/supertux/menu/addon_menu.cpp:301
 #, c-format
-msgid "Downloading %s"
-msgstr "Téléchargement %s "
+msgid "Downloading {}"
+msgstr "Téléchargement {} "
 
 #: src/supertux/menu/addon_menu.cpp:348
 msgid ""
@@ -2314,8 +2314,8 @@ msgstr "Compris !"
 
 #: src/supertux/levelintro.cpp:136
 #, c-format
-msgid "contributed by %s"
-msgstr "contribué par %s"
+msgid "contributed by {}"
+msgstr "contribué par {}"
 
 #: src/supertux/levelintro.cpp:169
 msgid "Badguys killed"

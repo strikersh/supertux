@@ -1167,8 +1167,8 @@ msgstr "Unbekanntes Ding"
 
 #: src/supertux/command_line_arguments.cpp:74
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Gebruuk: %s [INSTELLENS][UPGAVEN-DATEI]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Gebruuk: {} [INSTELLENS][UPGAVEN-DATEI]"
 
 #: src/supertux/command_line_arguments.cpp:75
 msgid "General Options:"
@@ -1563,10 +1563,10 @@ msgstr "Welt utkören"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:82
 #, c-format
-msgid "%d level"
-msgid_plural "%d levels"
-msgstr[0] "%d Upgaav"
-msgstr[1] "%d Upgaven"
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] "{} Upgaav"
+msgstr[1] "{} Upgaven"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:95
 msgid "Create World"
@@ -1791,13 +1791,13 @@ msgstr "Grött ännern"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[Benutzer %s]"
+msgid "[Profile {}]"
+msgstr "[Benutzer {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "Benutzer %s"
+msgid "Profile {}"
+msgstr "Benutzer {}"
 
 #: src/supertux/menu/editor_levelset_menu.cpp:59
 #: src/supertux/menu/editor_new_levelset_menu.cpp:35
@@ -1825,8 +1825,8 @@ msgstr "Unbekannt"
 
 #: src/supertux/menu/addon_menu.cpp:68
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s »%s« vun %s"
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} »{}« vun {}"
 
 #: src/supertux/menu/addon_menu.cpp:126
 msgid "No Add-ons installed"
@@ -1838,13 +1838,13 @@ msgstr "Keene neien Welten funnen"
 
 #: src/supertux/menu/addon_menu.cpp:176
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "»%s« installeren *NEEI*"
+msgid "Install {} *NEW*"
+msgstr "»{}« installeren *NEEI*"
 
 #: src/supertux/menu/addon_menu.cpp:187
 #, c-format
-msgid "Install %s"
-msgstr "»%s« installeren"
+msgid "Install {}"
+msgstr "»{}« installeren"
 
 #: src/supertux/menu/addon_menu.cpp:196
 msgid "No new Add-ons found"
@@ -1864,8 +1864,8 @@ msgstr "List vun Welten word laden"
 
 #: src/supertux/menu/addon_menu.cpp:298
 #, c-format
-msgid "Downloading %s"
-msgstr "»%s« word runnerladen"
+msgid "Downloading {}"
+msgstr "»{}« word runnerladen"
 
 #: src/supertux/menu/addon_menu.cpp:345
 msgid ""
@@ -2281,8 +2281,8 @@ msgstr "Good so!"
 
 #: src/supertux/levelintro.cpp:135
 #, c-format
-msgid "contributed by %s"
-msgstr "Bidragen vun %s"
+msgid "contributed by {}"
+msgstr "Bidragen vun {}"
 
 #: src/supertux/levelintro.cpp:167
 msgid "Badguys killed"

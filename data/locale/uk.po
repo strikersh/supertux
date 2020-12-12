@@ -1059,8 +1059,8 @@ msgstr ""
 
 #: src/supertux/command_line_arguments.cpp:79
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Використання: %s [ПАРАМЕТРИ] [ФАЙЛ_РІВНЯ]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Використання: {} [ПАРАМЕТРИ] [ФАЙЛ_РІВНЯ]"
 
 #: src/supertux/command_line_arguments.cpp:80
 msgid "General Options:"
@@ -1238,8 +1238,8 @@ msgstr ""
 
 #: src/supertux/levelintro.cpp:120
 #, c-format
-msgid "contributed by %s"
-msgstr "Автор %s"
+msgid "contributed by {}"
+msgstr "Автор {}"
 
 #: src/supertux/levelintro.cpp:141 src/supertux/statistics.cpp:119
 msgid "Best Level Statistics"
@@ -1279,8 +1279,8 @@ msgstr "Світ"
 
 #: src/supertux/menu/addon_menu.cpp:83
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s \"%s\" від \"%s\""
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" від \"{}\""
 
 #: src/supertux/menu/addon_menu.cpp:139
 msgid "Language packs"
@@ -1316,13 +1316,13 @@ msgstr "Жодного доповнення не знайдено"
 
 #: src/supertux/menu/addon_menu.cpp:224
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "Інсталювати %s *НОВЕ*"
+msgid "Install {} *NEW*"
+msgstr "Інсталювати {} *НОВЕ*"
 
 #: src/supertux/menu/addon_menu.cpp:235
 #, c-format
-msgid "Install %s"
-msgstr "Інсталювати %s"
+msgid "Install {}"
+msgstr "Інсталювати {}"
 
 #: src/supertux/menu/addon_menu.cpp:246
 msgid "No new Language packs found"
@@ -1361,8 +1361,8 @@ msgstr "Завантаження даних репозиторію доповн�
 
 #: src/supertux/menu/addon_menu.cpp:361
 #, c-format
-msgid "Downloading %s"
-msgstr "Завантаження %s"
+msgid "Downloading {}"
+msgstr "Завантаження {}"
 
 #: src/supertux/menu/addon_menu.cpp:408
 msgid ""
@@ -2024,13 +2024,13 @@ msgstr "Режим різдва"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[Профіль %s]"
+msgid "[Profile {}]"
+msgstr "[Профіль {}]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "Профіль %s"
+msgid "Profile {}"
+msgstr "Профіль {}"
 
 #: src/supertux/menu/world_set_menu.cpp:41
 msgid "Story Mode"

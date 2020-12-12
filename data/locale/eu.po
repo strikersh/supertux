@@ -1169,8 +1169,8 @@ msgstr "Objektu ezezaguna"
 
 #: src/supertux/command_line_arguments.cpp:74
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
-msgstr "Erabilera: %s [OPTIONS] [LEVELFILE]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
+msgstr "Erabilera: {} [OPTIONS] [LEVELFILE]"
 
 #: src/supertux/command_line_arguments.cpp:75
 msgid "General Options:"
@@ -1565,10 +1565,10 @@ msgstr ""
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:82
 #, c-format
-msgid "%d level"
-msgid_plural "%d levels"
-msgstr[0] "%d mailak"
-msgstr[1] "%d mailak"
+msgid "{} level"
+msgid_plural "{} levels"
+msgstr[0] "{} mailak"
+msgstr[1] "{} mailak"
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:95
 msgid "Create World"
@@ -1793,13 +1793,13 @@ msgstr "Tamaina aldatu"
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
-msgstr "[%s profila]"
+msgid "[Profile {}]"
+msgstr "[{} profila]"
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
-msgstr "%s profila"
+msgid "Profile {}"
+msgstr "{} profila"
 
 #: src/supertux/menu/editor_levelset_menu.cpp:59
 #: src/supertux/menu/editor_new_levelset_menu.cpp:35
@@ -1827,8 +1827,8 @@ msgstr "Ezezaguna"
 
 #: src/supertux/menu/addon_menu.cpp:68
 #, c-format
-msgid "%s \"%s\" by \"%s\""
-msgstr "%s \"%s\" by \"%s\""
+msgid "{} \"{}\" by \"{}\""
+msgstr "{} \"{}\" by \"{}\""
 
 #: src/supertux/menu/addon_menu.cpp:126
 msgid "No Add-ons installed"
@@ -1840,13 +1840,13 @@ msgstr "Ez da gehigarririk aurkitu"
 
 #: src/supertux/menu/addon_menu.cpp:176
 #, c-format
-msgid "Install %s *NEW*"
-msgstr "Instalatu %s *BERRIA*"
+msgid "Install {} *NEW*"
+msgstr "Instalatu {} *BERRIA*"
 
 #: src/supertux/menu/addon_menu.cpp:187
 #, c-format
-msgid "Install %s"
-msgstr "Instalatu %s"
+msgid "Install {}"
+msgstr "Instalatu {}"
 
 #: src/supertux/menu/addon_menu.cpp:196
 msgid "No new Add-ons found"
@@ -1866,8 +1866,8 @@ msgstr "Gehigarrien biltegiaren indizea deskargatzen"
 
 #: src/supertux/menu/addon_menu.cpp:298
 #, c-format
-msgid "Downloading %s"
-msgstr "%s deskargatzen"
+msgid "Downloading {}"
+msgstr "{} deskargatzen"
 
 #: src/supertux/menu/addon_menu.cpp:345
 msgid ""
@@ -2283,8 +2283,8 @@ msgstr ""
 
 #: src/supertux/levelintro.cpp:135
 #, c-format
-msgid "contributed by %s"
-msgstr "%s lagunduta"
+msgid "contributed by {}"
+msgstr "{} lagunduta"
 
 #: src/supertux/levelintro.cpp:167
 msgid "Badguys killed"

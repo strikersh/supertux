@@ -1205,7 +1205,7 @@ msgstr ""
 
 #: src/supertux/command_line_arguments.cpp:74
 #, c-format
-msgid "Usage: %s [OPTIONS] [LEVELFILE]"
+msgid "Usage: {} [OPTIONS] [LEVELFILE]"
 msgstr ""
 
 #: src/supertux/command_line_arguments.cpp:75
@@ -1603,8 +1603,8 @@ msgstr ""
 
 #: src/supertux/menu/editor_levelset_select_menu.cpp:82
 #, c-format
-msgid "%d level"
-msgid_plural "%d levels"
+msgid "{} level"
+msgid_plural "{} levels"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1833,12 +1833,12 @@ msgstr ""
 
 #: src/supertux/menu/profile_menu.cpp:37
 #, c-format
-msgid "[Profile %s]"
+msgid "[Profile {}]"
 msgstr ""
 
 #: src/supertux/menu/profile_menu.cpp:41
 #, c-format
-msgid "Profile %s"
+msgid "Profile {}"
 msgstr ""
 
 #: src/supertux/menu/editor_levelset_menu.cpp:59
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #: src/supertux/menu/addon_menu.cpp:71
 #, c-format
-msgid "%s \"%s\" by \"%s\""
+msgid "{} \"{}\" by \"{}\""
 msgstr ""
 
 #: src/supertux/menu/addon_menu.cpp:129
@@ -1884,12 +1884,12 @@ msgstr ""
 
 #: src/supertux/menu/addon_menu.cpp:179
 #, c-format
-msgid "Install %s *NEW*"
+msgid "Install {} *NEW*"
 msgstr ""
 
 #: src/supertux/menu/addon_menu.cpp:190
 #, c-format
-msgid "Install %s"
+msgid "Install {}"
 msgstr ""
 
 #: src/supertux/menu/addon_menu.cpp:199
@@ -1910,7 +1910,7 @@ msgstr ""
 
 #: src/supertux/menu/addon_menu.cpp:301
 #, c-format
-msgid "Downloading %s"
+msgid "Downloading {}"
 msgstr ""
 
 #: src/supertux/menu/addon_menu.cpp:348
@@ -2327,7 +2327,7 @@ msgstr ""
 
 #: src/supertux/levelintro.cpp:136
 #, c-format
-msgid "contributed by %s"
+msgid "contributed by {}"
 msgstr ""
 
 #: src/supertux/levelintro.cpp:169
