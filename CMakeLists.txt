@@ -123,23 +123,6 @@ if(WIN32)
   endif()
 endif(WIN32)
 
-## Add lots of dependencies to compiler switches
-
-set(Boost_ADDITIONAL_VERSIONS "1.41" "1.41.0")
-if(WIN32)
-  option(ENABLE_BOOST_STATIC_LIBS "Use boost static libraries" ON)
-else(WIN32)
-  option(ENABLE_BOOST_STATIC_LIBS "Use boost static libraries" OFF)
-endif(WIN32)
-if(ENABLE_BOOST_STATIC_LIBS)
-  set(Boost_USE_STATIC_LIBS TRUE)
-else(ENABLE_BOOST_STATIC_LIBS)
-  set(Boost_USE_STATIC_LIBS FALSE)
-endif(ENABLE_BOOST_STATIC_LIBS)
-find_package(Boost REQUIRED COMPONENTS filesystem system date_time locale)
-include_directories(SYSTEM ${Boost_INCLUDE_DIR})
-link_directories(${Boost_LIBRARY_DIRS})
-
 find_package(PNG REQUIRED)
 
 if(WIN32)
@@ -651,11 +634,6 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
           "${SUPERTUX2_EXTRA_WARNING_FLAGS} "
           "-Wint-in-bool-context "
           )
-      endif()
-      if(Boost_VERSION LESS 106500)
-        string(CONCAT SUPERTUX2_EXTRA_WARNING_FLAGS
-          "${SUPERTUX2_EXTRA_WARNING_FLAGS} "
-          "-Wno-implicit-fallthrough ")
       endif()
     elseif(CMAKE_CXX_COMPILER_ID MATCHES "Clang")
       string(CONCAT SUPERTUX2_EXTRA_WARNING_FLAGS
