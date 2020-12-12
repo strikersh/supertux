@@ -25,8 +25,8 @@
 #include "math/vector.hpp"
 #include "video/video_system.hpp"
 
-#include <boost/date_time/gregorian/gregorian.hpp>
-#include <boost/date_time/posix_time/posix_time_types.hpp>
+#include <ctime>
+#include <vector>
 #include <optional>
 
 class Config final
@@ -108,19 +108,15 @@ public:
   std::string repository_url;
 
   bool is_christmas() const {
-    try
-    {
-      using namespace boost::gregorian;
-      using namespace boost::posix_time;
-      date today = second_clock::local_time().date();
-      date saint_nicholas_day(today.year(), Dec, 6);
-      return today >= saint_nicholas_day;
-    }
-    catch(...)
-    {
-      return false;
-    }
+      std::time_t t = std::time(0);   // get time now
+      std::tm* now = std::localtime(&t);
+      if(now->tm_mon != 11)
+	      return false;
+      if(now->tm_mday < 7)
+	      return false;
+      return true;
   }
+
 };
 
 #endif
